@@ -1,0 +1,91 @@
+h1 {
+  color: #226E93;
+}
+
+.btn-color {
+  background-color: #226E93;
+  color: white;
+}
+
+.btn-color:hover {
+  color: white;
+  background-color: #185879;
+}
+
+.btn-color-trans {
+  color: #226E93;
+  background-color: white;
+  border: 1px solid #226E93;
+}
+
+.btn-color-trans:hover {
+  color: #226E93;
+  background-color: #18597911;
+  border: 1px solid #226E93;
+}
+
+@media (min-width:768px) {
+  .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .col-md-5 img {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+  .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 100%;
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+}
+
+.btn-discord {
+  color: #7289dc;
+  background-color: white;
+  border-color: #7289dc;
+}
+
+.btn-discord:hover {
+  background-color: #7289dc2a;
+  color: #7289dc;
+}
+
+.btn-facebook {
+  color: #1877f2;
+  background-color: white;
+  border: 1px solid #1877f2;
+}
+
+.btn-facebook:hover {
+  color: #1877f2;
+  background-color: #1c6dd718;
+}
+
+a {
+  color: #226E93;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #185879;
+  text-decoration: underline;
+}
+
+@media (min-width:576px) {
+  .jumbotron {
+    padding: 4rem 0rem;
+  }
+}
+
