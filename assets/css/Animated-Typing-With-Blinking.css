@@ -70,3 +70,7 @@
   pointer-events: none;
 }
 
+.btn-green:hover {
+  color: #226E93;
+}
+
