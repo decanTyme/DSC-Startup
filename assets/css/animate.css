@@ -136,16 +136,15 @@
   transform-origin: top left;
   animation: insert-red-m 2.2s ease both; }
 
-.animate #plane {
-    transform-origin: 50% 80%;
-    transform-box: fill-box;
-    transform: rotate(200deg);
-    offset-path: path("M710.27 451.165C696.52 430.865 679.71 392.865 721.42 366.125C780.89 328.005 880 236.515 721.42 151.125C562.84 65.7346 698.55 -30.3354 765.64 10.8346C832.73 52.0046 754.97 210.585 570.46 85.5546C414.94 -19.8354 293 42.6846 258.53 64.9346");
-    animation: plane-move 3s ease forwards; }
-  .animate .path {
-    stroke-dasharray: 606;
-    stroke-dashoffset: 0;
-    animation: plane-path 3s ease backwards; }
+.animate .svg-2 #plane {
+  transform-origin: 50% 70%;
+  transform-box: fill-box;
+  transform: rotate(200deg);
+  offset-path: path("M889.257 587.165C875.507 566.865 858.697 528.865 900.407 502.125C959.877 464.005 1058.99 372.515 900.407 287.125C741.827 201.735 877.537 105.665 944.627 146.835C1011.72 188.005 933.957 346.585 749.447 221.555C593.927 116.165 471.987 178.685 437.517 200.935");
+  animation: plane-move 3s ease forwards; }
+.animate .svg-2 .path {
+  stroke-dasharray: 606;
+  animation: plane-path 3s ease backwards; }
 
 .img-thumbnail {
   transition: .2s;
@@ -290,7 +289,7 @@ div.bg-white {
       offset-distance: 100%; } }
   @keyframes plane-path {
     from {
-      stroke-dashoffset: 1312.1486816406; }
+      stroke-dashoffset: 1312.1517333984375; }
     to {
       stroke-dashoffset: 0; } }
 
