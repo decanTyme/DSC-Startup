@@ -1,82 +1,223 @@
-.animate #bulb-ray-1 {
+@media (min-width: 768px) {
+  .animate .svg-1 #bulb-ray-1 {
+    opacity: 0;
+    transition: 0.1s; }
+  .animate .svg-1 #bulb-ray-2 {
+    opacity: 0;
+    transition: 0.1s; }
+  .animate .svg-1 #bulb-ray-3 {
+    opacity: 0;
+    transition: 0.1s; }
+  .animate .svg-1 #jigsaw-red {
+    transform-box: fill-box;
+    transform-origin: top left;
+    transform: rotate(21.5deg) translateX(23px);
+    transform: translateX(0) rotate(0deg);
+    transition: 0.6s; }
+  .animate .svg-1:hover #calendar #b-square-1 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black 0.2s ease; }
+  .animate .svg-1:hover #calendar #b-square-2 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black 0.2s ease 0.1s; }
+  .animate .svg-1:hover #calendar #b-square-3 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black 0.2s ease 0.2s; }
+  .animate .svg-1:hover #calendar #b-square-4 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black 0.2s ease 0.3s; }
+  .animate .svg-1:hover #calendar #b-square-5 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black 0.2s ease 0.4s; }
+  .animate .svg-1:hover #bulb-ray-1 {
+    opacity: 1;
+    transform-box: fill-box;
+    animation: ray-top 0.4s ease both; }
+  .animate .svg-1:hover #bulb-ray-2 {
+    opacity: 1;
+    transform-box: fill-box;
+    animation: ray-diag 0.4s ease both; }
+  .animate .svg-1:hover #bulb-ray-3 {
+    opacity: 1;
+    transform-box: fill-box;
+    animation: ray-left 0.4s ease both; }
+  .animate .svg-1:hover #jigsaw-red {
+    transform-box: fill-box;
+    transform-origin: top left;
+    transform: rotate(0);
+    transform: rotate(21.5deg) translateX(23px);
+    transition: 0.6s; } }
+
+
+    /* Mobile */
+@media (max-width: 767px) {
+  .animate .svg-1 #calendar #b-square-1 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black-m 2.2s ease 1s infinite; }
+  .animate .svg-1 #calendar #b-square-2 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black-m 2.2s ease 1.1s infinite; }
+  .animate .svg-1 #calendar #b-square-3 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black-m 2.2s ease 1.2s infinite; }
+  .animate .svg-1 #calendar #b-square-4 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black-m 2.2s ease 1.3s infinite; }
+  .animate .svg-1 #calendar #b-square-5 {
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: bs-black-m 2.2s ease 1.4s infinite; }
+  .animate .svg-1 #bulb-ray-1 {
+    opacity: 0;
+    transition: 0.2s;
+    transform-box: fill-box;
+    animation: ray-top-m 2.2s 0.8s ease both infinite; }
+  .animate .svg-1 #bulb-ray-2 {
+    opacity: 0;
+    transition: 0.2s;
+    transform-box: fill-box;
+    animation: ray-diag-m 2.2s 0.8s ease both infinite; }
+  .animate .svg-1 #bulb-ray-3 {
+    opacity: 0;
+    transition: 0.2s;
+    transform-box: fill-box;
+    animation: ray-left-m 2.2s 0.8s ease both infinite; }
+  .animate .svg-1 #jigsaw-red {
+    transform-box: fill-box;
+    transform-origin: top left;
+    animation: insert-red-m 2.2s ease both infinite; } }
+
+.anim-once #calendar #b-square-1 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black-m 2.2s ease 1.3s; }
+.anim-once #calendar #b-square-2 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black-m 2.2s ease 1.4s; }
+.anim-once #calendar #b-square-3 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black-m 2.2s ease 1.5s; }
+.anim-once #calendar #b-square-4 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black-m 2.2s ease 1.6s; }
+.anim-once #calendar #b-square-5 {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: bs-black-m 2.2s ease 1.7s; }
+.anim-once #bulb-ray-1 {
   opacity: 0;
-  transition: 0.1s; }
-.animate #bulb-ray-2 {
+  transition: 0.2s;
+  transform-box: fill-box;
+  animation: ray-top-m 2.2s 0.8s ease both; }
+.anim-once #bulb-ray-2 {
   opacity: 0;
-  transition: 0.1s; }
-.animate #bulb-ray-3 {
+  transition: 0.2s;
+  transform-box: fill-box;
+  animation: ray-diag-m 2.2s 0.8s ease both; }
+.anim-once #bulb-ray-3 {
   opacity: 0;
-  transition: 0.1s; }
-.animate #jigsaw-red {
+  transition: 0.2s;
+  transform-box: fill-box;
+  animation: ray-left-m 2.2s 0.8s ease both; }
+.anim-once #jigsaw-red {
   transform-box: fill-box;
   transform-origin: top left;
-  transform: rotate(21.5deg) translateX(23px);
-  transform: translateX(0) rotate(0deg);
-  transition: 0.6s; }
-.animate:hover #calendar #b-square-1 {
-  transform-origin: center;
-  transform-box: fill-box;
-  animation: bs-black 0.2s ease; }
-.animate:hover #calendar #b-square-2 {
-  transform-origin: center;
-  transform-box: fill-box;
-  animation: bs-black 0.2s ease 0.1s; }
-.animate:hover #calendar #b-square-3 {
-  transform-origin: center;
-  transform-box: fill-box;
-  animation: bs-black 0.2s ease 0.2s; }
-.animate:hover #calendar #b-square-4 {
-  transform-origin: center;
-  transform-box: fill-box;
-  animation: bs-black 0.2s ease 0.3s; }
-.animate:hover #calendar #b-square-5 {
-  transform-origin: center;
-  transform-box: fill-box;
-  animation: bs-black 0.2s ease 0.4s; }
-.animate:hover #bulb-ray-1 {
-  opacity: 1;
-  transition: 0.2s;
-  transform-box: fill-box;
-  animation: ray-top 0.2s ease both; }
-.animate:hover #bulb-ray-2 {
-  opacity: 1;
-  transition: 0.2s;
-  transform-box: fill-box;
-  animation: ray-diag 0.2s ease both; }
-.animate:hover #bulb-ray-3 {
-  opacity: 1;
-  transition: 0.2s;
-  transform-box: fill-box;
-  animation: ray-left 0.2s ease both; }
-.animate:hover #jigsaw-red {
-  transform-box: fill-box;
-  transform-origin: top left;
-  transform: rotate(0);
-  transform: rotate(21.5deg) translateX(23px);
-  transition: 0.6s; }
+  animation: insert-red-m 2.2s ease both; }
 
 .img-thumbnail {
-  transition: .1s;
+  transition: .2s;
 }
 
 .img-thumbnail:hover {
+  transition: 0.2s;
   padding: 0;
-  transition: 0.1s; }
+  border: 0;
+  -webkit-box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.10) !important;
+}
 
+div.bg-white {
+  overflow: hidden;
+}
+
+@keyframes insert-red-m {
+  0%, 25% {
+    transform: rotate(0); }
+  50% {
+    transform: rotate(21.5deg) translateX(23px); }
+  55% {
+    transform: rotate(21.5deg) translateX(23px); }
+  100% {
+    transform: translateX(0) rotate(0deg); } }
+@keyframes bs-black-m {
+  0% {
+    transform: scale(0); }
+  10%, 100% {
+    transform: scale(1); } }
 @keyframes bs-black {
   0% {
     transform: scale(0); }
   100% {
     transform: scale(1); } }
-@keyframes insert-red {
+@keyframes ray-top-m {
   0% {
-    transform: rotate(0); }
-  25% {
-    transform: rotate(21.5deg) translateX(23px); }
-  50% {
-    transform: rotate(21.5deg) translateX(23px); }
+    opacity: 1;
+    transform-origin: bottom center;
+    transform: scale(0); }
+  10% {
+    opacity: 1;
+    transform-origin: bottom center;
+    transform: scale(1); }
+  90% {
+    transform-origin: top center;
+    transform: scale(1  ); }
   100% {
-    transform: translateX(0) rotate(0deg); } }
+    transform-origin: top center;
+    transform: scale(0); } }
+@keyframes ray-diag-m {
+  0% {
+    opacity: 1;
+    transform-origin: bottom right;
+    transform: scale(0); }
+  10% {
+    opacity: 1;
+    transform-origin: bottom right;
+    transform: scale(1); }
+  90% {
+    transform-origin: top left;
+    transform: scale(1  ); }
+  100% {
+    transform-origin: top left;
+    transform: scale(0); } }
+@keyframes ray-left-m {
+  0% {
+    opacity: 1;
+    transform-origin: right center;
+    transform: scale(0); }
+  10% {
+    opacity: 1;
+    transform-origin: right center;
+    transform: scale(1); }
+  90% {
+    transform-origin: left center;
+    transform: scale(1  ); }
+  100% {
+    transform-origin: left center;
+    transform: scale(0); } }
+
+
 @keyframes ray-top {
   0% {
     transform-origin: bottom center;
