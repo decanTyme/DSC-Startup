@@ -37,15 +37,15 @@
   .animate .svg-1:hover #bulb-ray-1 {
     opacity: 1;
     transform-box: fill-box;
-    animation: ray-top 0.4s ease both; }
+    animation: ray-top 0.6s ease both; }
   .animate .svg-1:hover #bulb-ray-2 {
     opacity: 1;
     transform-box: fill-box;
-    animation: ray-diag 0.4s ease both; }
+    animation: ray-diag 0.6s ease both; }
   .animate .svg-1:hover #bulb-ray-3 {
     opacity: 1;
     transform-box: fill-box;
-    animation: ray-left 0.4s ease both; }
+    animation: ray-left 0.6s ease both; }
   .animate .svg-1:hover #jigsaw-red {
     transform-box: fill-box;
     transform-origin: top left;
@@ -135,6 +135,17 @@
   transform-box: fill-box;
   transform-origin: top left;
   animation: insert-red-m 2.2s ease both; }
+
+.animate #plane {
+    transform-origin: 50% 80%;
+    transform-box: fill-box;
+    transform: rotate(200deg);
+    offset-path: path("M710.27 451.165C696.52 430.865 679.71 392.865 721.42 366.125C780.89 328.005 880 236.515 721.42 151.125C562.84 65.7346 698.55 -30.3354 765.64 10.8346C832.73 52.0046 754.97 210.585 570.46 85.5546C414.94 -19.8354 293 42.6846 258.53 64.9346");
+    animation: plane-move 3s ease forwards; }
+  .animate .path {
+    stroke-dasharray: 606;
+    stroke-dashoffset: 0;
+    animation: plane-path 3s ease backwards; }
 
 .img-thumbnail {
   transition: .2s;
@@ -271,6 +282,17 @@ div.bg-white {
     transform: translateY(0); }
   100% {
     transform: translateY(-100px); } }
+
+  @keyframes plane-move {
+    0% {
+      offset-distance: 0%; }
+    100% {
+      offset-distance: 100%; } }
+  @keyframes plane-path {
+    from {
+      stroke-dashoffset: 1312.1486816406; }
+    to {
+      stroke-dashoffset: 0; } }
 
 @keyframes blinkingText {
   0% {
