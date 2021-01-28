@@ -27,7 +27,7 @@ const toAnimate2 = document.querySelector(".svg-2");
 
 testOptn2 = {
   threshold: 0,
-  rootMargin: "0px 0px -250px 0px"
+  rootMargin: "0px 0px -150px 0px"
 };
 
 const obs_svg2 = new IntersectionObserver(function(el, testObs) {
